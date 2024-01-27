@@ -1,0 +1,42 @@
+{
+  "name": "ranger-expo",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.1.1",
+    "@hookform/resolvers": "^3.3.4",
+    "@react-native-community/datetimepicker": "^7.6.2",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/native-stack": "^6.9.17",
+    "@reduxjs/toolkit": "^2.1.0",
+    "@tanstack/react-query": "^5.17.19",
+    "axios": "^1.6.6",
+    "expo": "~50.0.3",
+    "expo-device": "^5.9.3",
+    "expo-image-picker": "~14.7.1",
+    "expo-status-bar": "~1.11.1",
+    "moment": "^2.30.1",
+    "react": "18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-native": "0.73.2",
+    "react-native-country-picker-modal": "^2.0.0",
+    "react-native-device-info": "^10.12.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-picker-select": "^9.0.0",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "~3.29.0",
+    "react-query": "^3.39.3",
+    "react-redux": "^9.1.0",
+    "yup": "^1.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
